@@ -30,7 +30,7 @@ const App = () => {
             <div className='center_div'>
                 <h1 className='heading'>ToDo App</h1>
                 <br />
-                <input type='text' placeholder='Add a item' value={inputList} onChange={itemEvent} required/>
+                <input type='text' placeholder='Add a item' value={inputList} onChange={itemEvent} required="required"/>
                 <button onClick={listOfItems} >+</button>
                 <ol>
                     {
